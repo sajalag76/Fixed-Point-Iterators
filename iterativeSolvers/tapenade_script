@@ -1,0 +1,5 @@
+#!/bin/sh
+ 
+echo '*********Running the TAPENADE script*************'
+ 
+~/software/tapenade3.9/bin/tapenade -reverse -head func -vars "B" -outvars "y" -outputfiletype fortranplushtml -html iterativeSolver.f
